@@ -112,7 +112,6 @@ class StartProgram
             $"Процент выпитой жидкости от общего: {Math.Round(startProgram.CalculatePercentOfVolumeByAllVolume(totalVolume, student5.VolumeOfDrinks), 2)}%\n" +
             $"Процент спирта от общего: {Math.Round(startProgram.CalculatePercentOfAlcoholByAllAlcohol(totalAlcohol, s5Alcohol), 2)}%\n");
 
-        // при необходимости можешь раскомментить:
         Console.WriteLine($"Общий объём выпитого: {totalVolume}");
         Console.WriteLine($"Общий объём чистого спирта: {totalAlcohol:F2}");
     }
